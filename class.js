@@ -46,3 +46,7 @@ const teacher1=new Teacher("John", "Math"); // we create object of class Teacher
 teacher1.lecture(); // I am John and I teach Math
 
 console.log(teacher1); // Teacher { name: 'John', subject: 'Math' }
+
+console.log("ensaf sir example of class\n");
+const ensafsir=new Teacher("ensaf", "Biology");
+ensafsir.lecture();
