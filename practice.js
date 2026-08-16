@@ -32,3 +32,8 @@ const instructor=[
 
 const seniorPostion=instructor.filter(x=>x.position =="senior");
 console.log(seniorPostion);
+
+// task -6
+console.log("sum of age use reduce task 6");
+const sumOfAge=instructor.reduce((accu,curent)=>accu+curent.age,0);
+console.log(sumOfAge);
