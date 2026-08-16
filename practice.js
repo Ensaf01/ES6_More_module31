@@ -21,3 +21,14 @@ console.log(divisionByTen); // [20, 40, 50]
 //task-4 : find use
 const findDivisibleByTen=numbers2.find(x=>x%10==0);
 console.log(findDivisibleByTen); // 20 ,have 20,40,50 but find return first element that satisfy the condition,if not match then return undefined
+
+//task-5 : find the senior position people from array of object use filter
+console.log("find the senior position people from array of object use filter\n")
+const instructor=[
+    {name:'ensaf',age:20,position:'senior'},
+    {name:'rok',age:24,position:'junior'},
+    {name:'dhok',age:25,position:'senior'}
+]
+
+const seniorPostion=instructor.filter(x=>x.position =="senior");
+console.log(seniorPostion);
