@@ -27,4 +27,22 @@ const product1=new Product("Ensaf"); // we create object of class Product and pa
 console.log(product1); // Bangladesh,dhaka name Ensaf
 //console.log(product1.names); // Ensaf
 //console.log(product1.city); // Dhaka
-product1.speak("Hello, I am product1"); // Hello, I am product1
+product1.speak("Hello, I am product1\n\n"); // Hello, I am product1
+
+
+console.log("another example of class\n");
+
+class Teacher{
+    constructor(name,subject){
+        this.name=name;
+        this.subject=subject;
+    }
+    lecture(){
+        console.log(`I am ${this.name} and I teach ${this.subject}`);
+    }
+}
+
+const teacher1=new Teacher("John", "Math"); // we create object of class Teacher and pass name and subject as arguments to constructor method of class Teacher
+teacher1.lecture(); // I am John and I teach Math
+
+console.log(teacher1); // Teacher { name: 'John', subject: 'Math' }
