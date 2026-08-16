@@ -16,3 +16,8 @@ console.log(upperCaseFriends); // ["ALICE", "BOB", "CHARLIE", "DAVID"]
 const numbers2 = [13, 20, 33, 40, 50];
 const divisionByTen=numbers2.filter(x=>x%10==0);
 console.log(divisionByTen); // [20, 40, 50]
+
+
+//task-4 : find use
+const findDivisibleByTen=numbers2.find(x=>x%10==0);
+console.log(findDivisibleByTen); // 20 ,have 20,40,50 but find return first element that satisfy the condition,if not match then return undefined
